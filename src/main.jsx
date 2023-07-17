@@ -6,8 +6,8 @@ import { createBrowserRouter, RouterProvider,Route } from 'react-router-dom';
 import './index.css'
 
 const router = createBrowserRouter([
-  {path:'/', element: <FirstScreen/>},
-  {path:'/memory', element: <SecondScreen/>}
+  {path:'/memory', element: <FirstScreen/>},
+  {path:'/memorygame', element: <SecondScreen/>}
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
